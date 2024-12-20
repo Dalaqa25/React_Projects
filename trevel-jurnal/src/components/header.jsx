@@ -1,7 +1,9 @@
+import GlobePng from "/earth.png"
+
 function Header() {
     return (
         <header>
-           <img src="earth.png" alt="Globe Icon" />
+           <img src= { GlobePng } alt="Globe Icon" />
            <span>my trevel jurnal</span>
         </header>
     )

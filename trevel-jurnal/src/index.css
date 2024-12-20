@@ -40,7 +40,7 @@ main {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    border-bottom: 2px solid #e1e1e1;
+    border-bottom: 1.8px solid #e1e1e1;
 }
 
 .imgBox {
