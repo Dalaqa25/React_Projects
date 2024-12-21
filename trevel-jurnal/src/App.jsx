@@ -1,7 +1,6 @@
 import Header from "./components/header";
 import MainContent from "./components/MainContent";
 
-// images
 import FujiImage from "/fuji.jpg"
 
 function App() {
