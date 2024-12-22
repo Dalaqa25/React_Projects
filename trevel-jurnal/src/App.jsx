@@ -7,7 +7,7 @@ function App() {
 
     const dataElements = data.map((places) => {
        return <MainContent 
-            img = { places.img }
+            img = {places.img}
             title = { places.title }
             country = { places.country }
             googleMapsLink = { places.googleMapsLink }

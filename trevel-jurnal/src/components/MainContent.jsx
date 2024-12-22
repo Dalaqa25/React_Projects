@@ -6,7 +6,7 @@ function MainContent( props ) {
             <div className="mainContent">
                 <div className="card">
                     <div className="imgBox">
-                        <img src={ props.img } />
+                        <img src={ props.img.src } alt={ props.img.alt }/>
                     </div>
                     <div className="descriptionBox">
                         <div className="location">
