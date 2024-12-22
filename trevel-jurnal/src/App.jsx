@@ -6,14 +6,12 @@ import data from "../data";
 function App() {
 
     const dataElements = data.map((places) => {
-       return <MainContent 
-            img = {places.img}
-            title = { places.title }
-            country = { places.country }
-            googleMapsLink = { places.googleMapsLink }
-            dates = { places.dates }
-            text = { places.text }
-        />
+       return (  
+            <MainContent 
+                key = { places.id }
+                {...places }
+            />
+        )
     })
 
     return (
