@@ -1,6 +1,12 @@
+import Header from "../components/header";
+import MainContent from "../components/mainContent";
+
 function App() {
   return (
-    <h1>first react solo project</h1>
+    <>
+      <Header />
+      <MainContent />
+    </>
   )
 }
 
