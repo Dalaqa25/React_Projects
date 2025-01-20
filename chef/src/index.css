@@ -61,7 +61,7 @@ main {
     font-size: 0.875rem;
     font-weight: 500;
     cursor: pointer;
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 
 .add-ingrediance-from button::before {
@@ -71,4 +71,8 @@ main {
 
 .add-ingrediance-from button:hover {
     scale: 1.1;
+}
+
+.ingerdientsList {
+  text-align: center;
 }
