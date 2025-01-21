@@ -76,3 +76,19 @@ main {
 .ingerdientsList {
   text-align: center;
 }
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  max-width: 550px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;  
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}

@@ -26,7 +26,9 @@ function Body() {
             </form>
         </main>
         <ul>
-            { ingredientsListItems }
+            <li>
+                { ingredientsListItems }
+            </li>
         </ul>
     </>
   );
